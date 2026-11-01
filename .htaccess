@@ -52,6 +52,11 @@ RedirectMatch 301 ^/privacy(/|\.php|\.html)?/?$ /legal/privacy.html
 RedirectMatch 301 ^/terms(/|\.php|\.html)?/?$   /legal/terms.html
 RedirectMatch 301 ^/tos(/|\.php)?/?$           /legal/terms.html
 
+# The Bitcoin white paper: /bitcoin-whitepaper/ is the canonical page (2026-11-01).
+# The earlier /whitepaper/ (2026-10-30, other campaigns link to it) 301s to it. The old
+# whitepaper/ folder stays on the host, shadowed by this redirect. /bitcoin.pdf is untouched.
+RedirectMatch 301 ^/whitepaper(/|/index\.html)?$ /bitcoin-whitepaper/
+
 # a design choice is a query string, not a new document
 <IfModule mod_headers.c>
   Header set Vary "Cookie"
@@ -100,3 +105,13 @@ RedirectMatch 301 ^/tos(/|\.php)?/?$           /legal/terms.html
   # to the meetup placement rather than to an episode.
   RewriteRule ^meetup/?$ /gate/go.php?l=home&s=meetup-dir&utm_source=meetup&utm_medium=directory&utm_campaign=meetup-always-on&utm_content=listing [L]
 </IfModule>
+
+# BEGIN ai-doors (Markdown copies for AI agents, 2026-10-26)
+AddType text/markdown .md
+AddCharset utf-8 .md
+<IfModule mod_headers.c>
+<FilesMatch "\.md$">
+Header set X-Robots-Tag "noindex"
+</FilesMatch>
+</IfModule>
+# END ai-doors

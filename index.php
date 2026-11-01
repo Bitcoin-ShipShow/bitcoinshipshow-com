@@ -32,7 +32,7 @@ $PAGE_DESC  = "Bitcoin Shipshow — a monthly live show where builders demo what
            alt="A paper boat folded from the front page of The Times, 3 January 2009 — “Chancellor on brink of second bailout for banks”">
     </div>
 
-    <p class="eyebrow">Monthly · Live · Value-for-value</p>
+    <p class="eyebrow">Monthly · Live · Pirates' Community Call</p>
 
     <h1 class="title"><span class="title-a">Bitcoin</span><span class="title-b">Shipshow</span></h1>
 
@@ -47,6 +47,8 @@ $PAGE_DESC  = "Bitcoin Shipshow — a monthly live show where builders demo what
       </ol>
       <p class="cd-when" data-cd="when">E02 · Tue 3 Nov · 13:00 ET · 19:00 CET</p>
     </div>
+    <!-- the E02 stream, dressed as a player (badge, red play button, control bar) so it reads as a video, not a poster -->
+    <a class="hero-thumb" href="https://www.youtube.com/watch?v=_b5IVyO-AJw" data-goatcounter-click="e02-stream-thumb" target="_blank" rel="noopener" title="Watch Expedition 002 live on YouTube"><img src="<?= e(asset('img/episodes/e02-stream-thumb.jpg')) ?>" width="640" height="336" loading="lazy" alt="Bitcoin Shipshow Expedition 002 live stream on YouTube: pirates building a ship"><span class="yt-badge"><i class="yt-dot"></i>Live on YouTube</span><span class="yt-play" aria-hidden="true"><svg viewBox="0 0 68 48" width="68" height="48"><path d="M66.5 7.7c-.8-2.9-3-5.2-5.9-6C55.3.3 34 .3 34 .3s-21.3 0-26.6 1.4c-2.9.8-5.1 3.1-5.9 6C.1 13 .1 24 .1 24s0 11 1.4 16.3c.8 2.9 3 5.2 5.9 6C12.7 47.7 34 47.7 34 47.7s21.3 0 26.6-1.4c2.9-.8 5.1-3.1 5.9-6C67.9 35 67.9 24 67.9 24s0-11-1.4-16.3z" fill="#f00"/><path d="M45 24 27 14v20z" fill="#fff"/></svg></span><span class="yt-bar" aria-hidden="true"><span class="yt-progress"><i></i></span><svg class="yt-ico" viewBox="0 0 24 24"><path d="M8 5v14l11-7z" fill="#fff"/></svg><svg class="yt-ico" viewBox="0 0 24 24"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0 0 14 8v8a4.5 4.5 0 0 0 2.5-4z" fill="#fff"/></svg><span class="yt-live"><i></i>LIVE</span><svg class="yt-ico yt-fs" viewBox="0 0 24 24"><path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z" fill="#fff"/></svg></span></a>
     <div class="hero-guests">
       <span class="hero-guests-cap">E02 guests</span>
       <span class="hero-guests-row">
@@ -56,7 +58,14 @@ $PAGE_DESC  = "Bitcoin Shipshow — a monthly live show where builders demo what
         <span class="guest-tba" title="Open dock: an open slot to show what you are building">Open dock</span>
       </span>
     </div>
-    <a class="hero-thumb" href="https://www.youtube.com/watch?v=_b5IVyO-AJw" data-goatcounter-click="e02-stream-thumb" target="_blank" rel="noopener" title="Expedition 002 on YouTube"><img src="<?= e(asset('img/episodes/e02-stream-thumb.jpg')) ?>" width="640" height="336" loading="lazy" alt="Bitcoin Shipshow Expedition 002 stream: pirates building a ship, first Tuesday of every month"></a>
+    <details class="whatis">
+      <summary>What is Bitcoin Shipshow?</summary>
+      <div class="whatis-body">
+        <p>A free monthly online Bitcoin meetup and live demo show. Builders show what they are actually shipping in Bitcoin, Lightning, Nostr and freedom tech: working demos, not pitches, and no price talk.</p>
+        <p>Kind of a group call, kind of a TV show. A few projects take the stage, plus the Open dock, a slot for anyone to show what they are building. About 90 minutes, streamed on YouTube and Nostr. The last half hour is off the record: nothing recorded, just the room.</p>
+        <p>First Tuesday of every month, 13:00 ET · 19:00 CET. <a href="/about/">More about the show →</a> · <a href="/bitcoin-whitepaper/">Bitcoin white paper: 18 years →</a></p>
+      </div>
+    </details>
     </div>
 
     <form class="signup" id="signup" data-signup method="POST" action="/gate/gate.php">
@@ -80,16 +89,15 @@ $PAGE_DESC  = "Bitcoin Shipshow — a monthly live show where builders demo what
       <p class="sent-when" data-sent="when"></p>
     </div>
 
-    <p class="stream-cta">New to this? <a href="/about/">What is Bitcoin Shipshow?</a>
-      — the monthly online Bitcoin meetup, the format, and the questions people ask.</p>
-
   </div>
 
-  <!-- the ticker belongs to screen one and shows before any email is given -->
+  <!-- the ticker belongs to screen one and shows before any email is given.
+       Each item appears once (Tomek 2026-10-26: no repeats); shipshow.js fills
+       the next-show date and sways the strip only when it is wider than the screen. -->
   <div class="ticker" aria-hidden="true">
     <img class="ticker-logo" src="<?= e(asset('img/shipshow-boat.png')) ?>" alt="">
     <div class="ticker-track">
-    <a class="ticker-item" href="https://njump.me/npub1mtjn0yp705hvgszssf2ddjpzk3zzjzgvu58dwwpkxqud0hde6fxss7cwyw" target="_blank" rel="noopener">Streamed on Nostr</a><span class="ticker-item">Show us what you're building</span><span class="ticker-item">Off-record afterparty</span><span class="ticker-item">#bitcoinshipshow</span><a class="ticker-item" href="https://njump.me/npub1mtjn0yp705hvgszssf2ddjpzk3zzjzgvu58dwwpkxqud0hde6fxss7cwyw" target="_blank" rel="noopener">Streamed on Nostr</a><span class="ticker-item">Show us what you're building</span><span class="ticker-item">Off-record afterparty</span><span class="ticker-item">#bitcoinshipshow</span>
+    <span class="ticker-item ticker-next" data-cd="next">Next show: Tue 3 Nov · 13:00 ET · 19:00 CET</span><a class="ticker-item" href="https://www.youtube.com/@BitcoinShipshow" data-goatcounter-click="ticker-youtube" target="_blank" rel="noopener">Streamed on YouTube</a><a class="ticker-item" href="https://njump.me/npub1mtjn0yp705hvgszssf2ddjpzk3zzjzgvu58dwwpkxqud0hde6fxss7cwyw" data-goatcounter-click="ticker-nostr" target="_blank" rel="noopener">Streamed on Nostr</a><span class="ticker-item">Show us what you're building</span><a class="ticker-item" href="/bitcoin-whitepaper/" data-goatcounter-click="ticker-whitepaper">Bitcoin white paper: 18 years</a><span class="ticker-item">Off-record afterparty</span><span class="ticker-item">#bitcoinshipshow</span>
   </div></div>
 
     </section>

@@ -325,7 +325,7 @@ $crumbLd = [
 <section class="s s-stage" id="stage">
   <div class="wrap">
     <h2 class="h"><span class="h-mark">What gets on stage</span></h2>
-    <p class="prose">Anything interesting being built on Bitcoin, Lightning, or Nostr — working
+    <p class="prose">Anything interesting being built on <a href="/bitcoin-whitepaper/">Bitcoin</a>, Lightning, or Nostr — working
       demos only, beta and alpha welcome.</p>
 
     <ul class="tags">
