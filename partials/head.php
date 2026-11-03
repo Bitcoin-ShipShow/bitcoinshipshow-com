@@ -16,7 +16,7 @@
  */
 $PAGE_OG_URL       = 'https://bitcoinship.show' . ($PAGE_SLUG === 'home' ? '/' : '/' . $PAGE_SLUG . '/');
 $PAGE_OG_IMAGE     = $PAGE_OG_IMAGE ?? 'https://bitcoinship.show/img/og-shipshow-c01.jpg';
-$PAGE_OG_IMAGE_ALT = $PAGE_OG_IMAGE_ALT ?? 'Bitcoin Shipshow: a patchwork sailing ship in a wheat field. First Tuesday of every month, 13:00 ET / 19:00 Central European time. Brought to you by Freedom Tech, Bitcoin District and HiveTalk.';
+$PAGE_OG_IMAGE_ALT = $PAGE_OG_IMAGE_ALT ?? 'Bitcoin Shipshow: a patchwork sailing ship in a wheat field. First Tuesday of every month, 13:00 ET / 19:00 Central European time. Patroned by Freedom Tech, Bitcoin District and HiveTalk.';
 $PAGE_OG_IMAGE_TYPE   = $PAGE_OG_IMAGE_TYPE ?? 'image/jpeg';
 $PAGE_OG_IMAGE_WIDTH  = $PAGE_OG_IMAGE_WIDTH ?? '1200';
 $PAGE_OG_IMAGE_HEIGHT = $PAGE_OG_IMAGE_HEIGHT ?? '630';
@@ -28,6 +28,7 @@ $PAGE_OG_SITE      = 'Bitcoin Shipshow';
 <title><?= e($PAGE_TITLE) ?></title>
 <meta name="description" content="<?= e($PAGE_DESC) ?>">
 <link rel="canonical" href="<?= e($PAGE_OG_URL) ?>">
+<?php $MD_LINK_PATH = (string) (parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH) ?: '/'); if (in_array($MD_LINK_PATH, ['/', '/about/', '/privacy-policy/', '/terms-of-service/'], true)) { echo '<link rel="alternate" type="text/markdown" href="' . e($MD_LINK_PATH . 'index.md') . '">' . "\n"; } ?>
 <?php if ($DESIGN !== DEFAULT_DESIGN || $SHOW_PICKER): ?>
 <meta name="robots" content="noindex,nofollow">
 <?php endif; ?>
@@ -58,7 +59,7 @@ $PAGE_OG_SITE      = 'Bitcoin Shipshow';
 <meta name="twitter:image:alt" content="<?= e($PAGE_OG_IMAGE_ALT) ?>">
 <?php if ($PAGE_SLUG === 'home'): ?>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Event","name":"Bitcoin Shipshow E02 - Pirates' Community Call","description":"Builders demo what they're actually shipping in Bitcoin, Nostr and other freedom tech. La Crypta, Antidote and Brainstorm, plus the Open dock. The room stays open off the record after the show.","startDate":"2026-11-03T18:00:00Z","endDate":"2026-11-03T19:30:00Z","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://bitcoinship.show/live/"},"image":"https://bitcoinship.show/img/og-shipshow.jpg","url":"https://bitcoinship.show/","organizer":{"@type":"Organization","name":"Bitcoin Shipshow","url":"https://bitcoinship.show"},"performer":[{"@type":"Organization","name":"La Crypta","url":"https://lacrypta.ar"},{"@type":"Organization","name":"Antidote","url":"https://antidotebtc.com"},{"@type":"Organization","name":"Brainstorm","url":"https://brainstorm.world"}]}
+{"@context":"https://schema.org","@type":"Event","name":"Bitcoin Shipshow E03 - Pirates' Community Call","description":"Builders demo what they're actually shipping in Bitcoin, Nostr and other freedom tech. ReGBY, WeSatoshis, Zap Cooking and BitcoinWalk, plus the Open dock. The room stays open off the record after the show.","startDate":"2026-12-01T18:00:00Z","endDate":"2026-12-01T19:30:00Z","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://bitcoinship.show/live/"},"image":"https://bitcoinship.show/img/og-shipshow.jpg","url":"https://bitcoinship.show/","organizer":{"@type":"Organization","name":"Bitcoin Shipshow","url":"https://bitcoinship.show"},"performer":[{"@type":"Organization","name":"ReGBY","url":"https://regby.nostr.box"},{"@type":"Organization","name":"WeSatoshis","url":"https://wesatoshis.com"},{"@type":"Organization","name":"Zap Cooking","url":"https://zap.cooking"},{"@type":"Organization","name":"BitcoinWalk","url":"https://bitcoinwalk.org"}]}
 </script>
 <?php endif; ?>
 <link rel="preconnect" href="https://fonts.googleapis.com">

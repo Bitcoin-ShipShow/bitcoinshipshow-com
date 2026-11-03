@@ -45,16 +45,17 @@ $PAGE_DESC  = "Bitcoin Shipshow — a monthly live show where builders demo what
         <li class="cd-unit"><span class="cd-num" data-cd="m">--</span><span class="cd-lbl">min</span></li>
         <li class="cd-unit"><span class="cd-num" data-cd="s">--</span><span class="cd-lbl">sec</span></li>
       </ol>
-      <p class="cd-when" data-cd="when">E02 · Tue 3 Nov · 13:00 ET · 19:00 CET</p>
+      <p class="cd-when" data-cd="when">E03 · Tue 1 Dec · 13:00 ET · 19:00 CET</p>
     </div>
-    <!-- the E02 stream, dressed as a player (badge, red play button, control bar) so it reads as a video, not a poster -->
-    <a class="hero-thumb" href="https://www.youtube.com/watch?v=_b5IVyO-AJw" data-goatcounter-click="e02-stream-thumb" target="_blank" rel="noopener" title="Watch Expedition 002 live on YouTube"><img src="<?= e(asset('img/episodes/e02-stream-thumb.jpg')) ?>" width="640" height="336" loading="lazy" alt="Bitcoin Shipshow Expedition 002 live stream on YouTube: pirates building a ship"><span class="yt-badge"><i class="yt-dot"></i>Live on YouTube</span><span class="yt-play" aria-hidden="true"><svg viewBox="0 0 68 48" width="68" height="48"><path d="M66.5 7.7c-.8-2.9-3-5.2-5.9-6C55.3.3 34 .3 34 .3s-21.3 0-26.6 1.4c-2.9.8-5.1 3.1-5.9 6C.1 13 .1 24 .1 24s0 11 1.4 16.3c.8 2.9 3 5.2 5.9 6C12.7 47.7 34 47.7 34 47.7s21.3 0 26.6-1.4c2.9-.8 5.1-3.1 5.9-6C67.9 35 67.9 24 67.9 24s0-11-1.4-16.3z" fill="#f00"/><path d="M45 24 27 14v20z" fill="#fff"/></svg></span><span class="yt-bar" aria-hidden="true"><span class="yt-progress"><i></i></span><svg class="yt-ico" viewBox="0 0 24 24"><path d="M8 5v14l11-7z" fill="#fff"/></svg><svg class="yt-ico" viewBox="0 0 24 24"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0 0 14 8v8a4.5 4.5 0 0 0 2.5-4z" fill="#fff"/></svg><span class="yt-live"><i></i>LIVE</span><svg class="yt-ico yt-fs" viewBox="0 0 24 24"><path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z" fill="#fff"/></svg></span></a>
+    <!-- the E03 stream, dressed as a player (badge, red play button, control bar) so it reads as a video, not a poster -->
+    <a class="hero-thumb" href="https://www.youtube.com/watch?v=68ncVIXLtGc" data-goatcounter-click="e03-stream-thumb" target="_blank" rel="noopener" title="Watch Expedition 003 live on YouTube"><img src="<?= e(asset('img/episodes/e03-stream-thumb.jpg')) ?>" width="640" height="336" loading="lazy" alt="Bitcoin Shipshow Expedition 003 live stream on YouTube, Tue 1 Dec"><span class="yt-badge"><i class="yt-dot"></i>Live on YouTube</span><span class="yt-play" aria-hidden="true"><svg viewBox="0 0 68 48" width="68" height="48"><path d="M66.5 7.7c-.8-2.9-3-5.2-5.9-6C55.3.3 34 .3 34 .3s-21.3 0-26.6 1.4c-2.9.8-5.1 3.1-5.9 6C.1 13 .1 24 .1 24s0 11 1.4 16.3c.8 2.9 3 5.2 5.9 6C12.7 47.7 34 47.7 34 47.7s21.3 0 26.6-1.4c2.9-.8 5.1-3.1 5.9-6C67.9 35 67.9 24 67.9 24s0-11-1.4-16.3z" fill="#f00"/><path d="M45 24 27 14v20z" fill="#fff"/></svg></span><span class="yt-bar" aria-hidden="true"><span class="yt-progress"><i></i></span><svg class="yt-ico" viewBox="0 0 24 24"><path d="M8 5v14l11-7z" fill="#fff"/></svg><svg class="yt-ico" viewBox="0 0 24 24"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0 0 14 8v8a4.5 4.5 0 0 0 2.5-4z" fill="#fff"/></svg><span class="yt-live"><i></i>LIVE</span><svg class="yt-ico yt-fs" viewBox="0 0 24 24"><path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z" fill="#fff"/></svg></span></a>
     <div class="hero-guests">
-      <span class="hero-guests-cap">E02 guests</span>
+      <span class="hero-guests-cap">E03 guests</span>
       <span class="hero-guests-row">
-        <a href="https://lacrypta.ar?utm_source=bitcoinshipshow&amp;utm_medium=site&amp;utm_campaign=guest-lacrypta" data-goatcounter-click="guest-lacrypta" target="_blank" rel="noopener" title="La Crypta"><img src="<?= e(asset('img/guests/lacrypta-lockup.svg')) ?>" alt="La Crypta"></a>
-        <a href="https://antidotebtc.com?utm_source=bitcoinshipshow&amp;utm_medium=site&amp;utm_campaign=guest-antidote" data-goatcounter-click="guest-antidote" target="_blank" rel="noopener" title="Antidote"><img src="<?= e(asset('img/guests/antidote-lockup.png')) ?>" alt="Antidote"></a>
-        <a href="https://brainstorm.world?utm_source=bitcoinshipshow&amp;utm_medium=site&amp;utm_campaign=guest-brainstorm" data-goatcounter-click="guest-brainstorm" target="_blank" rel="noopener" title="Brainstorm"><img src="<?= e(asset('img/guests/brainstorm-lockup.svg')) ?>" alt="Brainstorm"></a>
+        <a href="https://regby.nostr.box?utm_source=bitcoinshipshow&amp;utm_medium=site&amp;utm_campaign=guest-regby" data-goatcounter-click="guest-regby" target="_blank" rel="noopener" title="ReGBY"><img src="<?= e(asset('img/guests/regby-lockup.svg')) ?>" alt="ReGBY"></a>
+        <a href="https://wesatoshis.com?utm_source=bitcoinshipshow&amp;utm_medium=site&amp;utm_campaign=guest-wesatoshis" data-goatcounter-click="guest-wesatoshis" target="_blank" rel="noopener" title="WeSatoshis"><img src="<?= e(asset('img/guests/wesatoshis-lockup.svg')) ?>" alt="WeSatoshis"></a>
+        <a href="https://zap.cooking?utm_source=bitcoinshipshow&amp;utm_medium=site&amp;utm_campaign=guest-zapcooking" data-goatcounter-click="guest-zapcooking" target="_blank" rel="noopener" title="Zap Cooking"><img src="<?= e(asset('img/guests/zapcooking-lockup.svg')) ?>" alt="Zap Cooking"></a>
+        <a href="https://bitcoinwalk.org?utm_source=bitcoinshipshow&amp;utm_medium=site&amp;utm_campaign=guest-bitcoinwalk" data-goatcounter-click="guest-bitcoinwalk" target="_blank" rel="noopener" title="BitcoinWalk"><img src="<?= e(asset('img/guests/bitcoinwalk-lockup.png')) ?>" alt="BitcoinWalk"></a>
         <span class="guest-tba" title="Open dock: an open slot to show what you are building">Open dock</span>
       </span>
     </div>
@@ -97,7 +98,7 @@ $PAGE_DESC  = "Bitcoin Shipshow — a monthly live show where builders demo what
   <div class="ticker" aria-hidden="true">
     <img class="ticker-logo" src="<?= e(asset('img/shipshow-boat.png')) ?>" alt="">
     <div class="ticker-track">
-    <span class="ticker-item ticker-next" data-cd="next">Next show: Tue 3 Nov · 13:00 ET · 19:00 CET</span><a class="ticker-item" href="https://www.youtube.com/@BitcoinShipshow" data-goatcounter-click="ticker-youtube" target="_blank" rel="noopener">Streamed on YouTube</a><a class="ticker-item" href="https://njump.me/npub1mtjn0yp705hvgszssf2ddjpzk3zzjzgvu58dwwpkxqud0hde6fxss7cwyw" data-goatcounter-click="ticker-nostr" target="_blank" rel="noopener">Streamed on Nostr</a><span class="ticker-item">Show us what you're building</span><a class="ticker-item" href="/bitcoin-whitepaper/" data-goatcounter-click="ticker-whitepaper">Bitcoin white paper: 18 years</a><span class="ticker-item">Off-record afterparty</span><span class="ticker-item">#bitcoinshipshow</span>
+    <span class="ticker-item ticker-next" data-cd="next">Next show: Tue 1 Dec · 13:00 ET · 19:00 CET</span><a class="ticker-item" href="https://www.youtube.com/@BitcoinShipshow" data-goatcounter-click="ticker-youtube" target="_blank" rel="noopener">Streamed on YouTube</a><a class="ticker-item" href="https://njump.me/npub1mtjn0yp705hvgszssf2ddjpzk3zzjzgvu58dwwpkxqud0hde6fxss7cwyw" data-goatcounter-click="ticker-nostr" target="_blank" rel="noopener">Streamed on Nostr</a><span class="ticker-item">Show us what you're building</span><a class="ticker-item" href="/bitcoin-whitepaper/" data-goatcounter-click="ticker-whitepaper">Bitcoin white paper: 18 years</a><span class="ticker-item">Off-record afterparty</span><span class="ticker-item">#bitcoinshipshow</span>
   </div></div>
 
     </section>
@@ -128,8 +129,8 @@ $PAGE_DESC  = "Bitcoin Shipshow — a monthly live show where builders demo what
   </div>
 </section>
 
-<!-- ═══════════ 2b · brought to you by — directly below the show ═══════════ -->
-<section class="s s-patrons" id="patrons" aria-label="Brought to you by">
+<!-- ═══════════ 2b · patroned by — directly below the show ═══════════ -->
+<section class="s s-patrons" id="patrons" aria-label="Patroned by">
   <div class="wrap">
     <style>
       .patrons-panel{
@@ -160,7 +161,7 @@ $PAGE_DESC  = "Bitcoin Shipshow — a monthly live show where builders demo what
     </style>
 
     <div class="patrons-panel">
-      <p class="patrons-cap">⚓ Brought to you by</p>
+      <p class="patrons-cap">⚓ Patroned by</p>
       <div class="patrons-row">
         <a class="patron patron-main" href="https://www.freedomtech.co?utm_source=bitcoinshipshow&amp;utm_medium=site&amp;utm_campaign=partner-freedomtech" data-goatcounter-click="partner-freedomtech" target="_blank" rel="noopener"><img class="patron-img patron-img-main" src="<?= e(asset('img/freedomtech-logo.png')) ?>" alt="Freedom Tech - main sponsor"><span class="patron-tag">main sponsor</span></a>
       </div>
