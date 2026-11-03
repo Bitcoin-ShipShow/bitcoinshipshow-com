@@ -5,6 +5,9 @@ WHAT IS IN HERE
   wordmark-*.png        "Bitcoin Shipshow" set in Pirata One (display face).
                         cream = on dark backgrounds, gold / ink / white variants.
   logos/boat-mark.*     the boat: folded from the 3 January 2009 Times front page.
+  logos/shipshow-logo-engraving-bw.svg
+                        one-ink black logo (boat over wordmark) for laser engraving,
+                        stamps and print. Text is outlined; no white box, no greys.
   logos/                sponsor logos - Freedom Tech (main sponsor),
                         Bitcoin District and HiveTalk (supporting).
   guests/               E01 guest logos, use them only for E01 promotion.
