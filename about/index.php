@@ -293,17 +293,17 @@ $crumbLd = [
   </div>
 </section>
 
-<!-- ═══════════ 3 · brought to you by — directly under the show, as on the home page ═══════════ -->
-<section class="s s-patrons" id="partners" aria-label="Brought to you by">
+<!-- ═══════════ 3 · patroned by — directly under the show, as on the home page ═══════════ -->
+<section class="s s-patrons" id="partners" aria-label="Patroned by">
   <div class="wrap">
-    <h2 class="h"><span class="h-mark">Brought to you by</span></h2>
+    <h2 class="h"><span class="h-mark">Patroned by</span></h2>
     <p class="prose">The show is independent and community-run — supported by a handful of aligned
       partners per season: companies, brands, YouTubers and creators who want to stand with the
       people building. Hosts curate every slot, and one demo slot every month is reserved for a
       project with no partner behind it.</p>
 
     <div class="patrons-panel">
-      <p class="patrons-cap">⚓ Brought to you by</p>
+      <p class="patrons-cap">⚓ Patroned by</p>
       <div class="patrons-row">
         <a class="patron patron-main" href="https://www.freedomtech.co?utm_source=bitcoinshipshow&amp;utm_medium=site&amp;utm_campaign=partner-freedomtech" data-goatcounter-click="partner-freedomtech" target="_blank" rel="noopener"><img class="patron-img patron-img-main" src="<?= e(asset('img/freedomtech-logo.png')) ?>" alt="Freedom Tech - main sponsor"><span class="patron-tag">main sponsor</span></a>
       </div>
@@ -420,6 +420,7 @@ $crumbLd = [
     <p class="gallery-cap">Expedition replays — newest first, then scenes from the community calls we ran before.</p>
 
     <ul class="gallery">
+      <li class="shot shot-ep"><span class="shot-media"><img class="shot-img" loading="lazy" src="<?= e(asset('img/episodes/e02-stream-thumb.jpg')) ?>" alt="Bitcoin Shipshow E02"></span><span class="shot-cap">E02 · Tue 3 Nov 2026 — La Crypta, Antidote, Brainstorm · <b>replay coming soon</b></span></li>
       <li class="shot shot-ep"><a class="shot-link" href="https://www.youtube.com/watch?v=wkG0b-86teM" data-goatcounter-click="episode-e01-replay" target="_blank" rel="noopener" title="Bitcoin Shipshow E01 replay on YouTube"><span class="shot-media"><img class="shot-img" loading="lazy" src="<?= e(asset('img/episodes/e01.jpg')) ?>" alt="Bitcoin Shipshow E01 — the replay"><span class="shot-play" aria-hidden="true">▶</span></span><span class="shot-cap">E01 · Tue 6 Oct 2026 — Pakstr, IndeeHub, Sidecar, Angor · <b>watch the replay</b></span></a></li>
       <li class="shot"><img class="shot-img" loading="lazy" src="<?= e(asset('img/call-countdown.jpg')) ?>" alt="Pre-show countdown with live mempool blocks and guest lineup"><span class="shot-cap">pre-show countdown — guest lineup, live on-chain data</span></li>
       <li class="shot"><img class="shot-img" loading="lazy" src="<?= e(asset('img/call-demo-bitrefill.jpg')) ?>" alt="Live product demo with chat and the full participant grid"><span class="shot-cap">live demo, chat + the whole room on camera</span></li>
