@@ -188,7 +188,7 @@ It is our tagline for what the show is: a community call that grew out of the Bi
 
 Expedition replays — newest first, then scenes from the community calls we ran before.
 
-- ![Bitcoin Shipshow E02](https://bitcoinship.show/img/episodes/e02-stream-thumb.jpg)E02 · Tue 3 Nov 2026 — La Crypta, Antidote, Brainstorm · **replay coming soon**
+- ![Bitcoin Shipshow E02](https://bitcoinship.show/img/episodes/e02-stream-thumb.jpg)E02 · Tue 3 Nov 2026 — La Crypta, Antidote, Brainstorm
 - [![Bitcoin Shipshow E01 — the replay](https://bitcoinship.show/img/episodes/e01.jpg?v=1791380656)E01 · Tue 6 Oct 2026 — Pakstr, IndeeHub, Sidecar, Angor · **watch the replay**](https://www.youtube.com/watch?v=wkG0b-86teM "Bitcoin Shipshow E01 replay on YouTube")
 - ![Pre-show countdown with live mempool blocks and guest lineup](https://bitcoinship.show/img/call-countdown.jpg?v=1790656745)pre-show countdown — guest lineup, live on-chain data
 - ![Live product demo with chat and the full participant grid](https://bitcoinship.show/img/call-demo-bitrefill.jpg?v=1790656746)live demo, chat + the whole room on camera
